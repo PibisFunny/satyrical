@@ -1,0 +1,45 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+	display:block;
+}
+
+h1 {
+  text-align: center;
+	color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+p {
+  text-align: center;
+	color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#autoplay-cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000000;
+	z-index: 10005;
+
+	text-align: center;
+	transition: opacity 0.5s;
+}
+
+#autoplay-cover.hide {
+	opacity: 0;
+}
