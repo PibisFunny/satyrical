@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> </title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <script src="styling/interact.js"></script>
+    <link href="styling/indexInter.css" rel="stylesheet">
+    <style>
+      marquee {
+      font-size: 40px;
+      font-weight: 40;
+      color: #ffffff;
+      font-family: "Comic Sans MS", sans-serif;
+      }
+    </style>
+
+    <script src="styling/loopify.js" type="text/javascript"></script>
+<script>
+    loopify("snd/misterb.wav",ready);
+
+    function ready(err,loop){
+      if (err) {
+        console.warn(err);
+      }
+
+        loop.play();
+    }
+</script>
+
+  </head>
+  <body>
+
+    <h1>YOU WANNA PLAY WITH YOUR</h1>
+    <br>
+    <marquee direction="left" scrollamount="60">MARIO</marquee>
+    <marquee direction="right" scrollamount="60">GAMES</marquee>
+
+ </body>
+</html>

@@ -1,0 +1,33 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+	display:block;
+}
+
+h1 {
+  text-align: center;
+	color: #ffffff;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+p {
+  text-align: center;
+	color: #ffffff;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+ background-image: url("img/mariogames.gif");
+ background-color: #000000;
+}
