@@ -26,20 +26,3 @@ p {
 a {
     text-decoration: none;
 }
-
-#autoplay-cover {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #000000;
-	z-index: 10005;
-
-	text-align: center;
-	transition: opacity 0.5s;
-}
-
-#autoplay-cover.hide {
-	opacity: 0;
-}
