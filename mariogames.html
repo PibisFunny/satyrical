@@ -5,8 +5,17 @@
     <title>Mariogames</title>
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <script src="styling/interact.js"></script>
-    <link href="styling/indexInter.css" rel="stylesheet">
+    <script src="styling/loopify.js" type="text/javascript"></script>
+    <script>
+        loopify("snd/misterb.wav",ready);
+        function ready(err,loop){
+          if (err) {
+            console.warn(err);
+          }
+            loop.play();
+        }
+    </script>
+    <link href="styling/mariogames.css" rel="stylesheet">
     <style>
       marquee {
       font-size: 40px;
@@ -15,19 +24,6 @@
       font-family: "Comic Sans MS", sans-serif;
       }
     </style>
-
-    <script src="styling/loopify.js" type="text/javascript"></script>
-<script>
-    loopify("snd/misterb.wav",ready);
-
-    function ready(err,loop){
-      if (err) {
-        console.warn(err);
-      }
-
-        loop.play();
-    }
-</script>
 
   </head>
   <body>
