@@ -26,3 +26,21 @@ p {
 a {
     text-decoration: none;
 }
+
+a {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+a:link {
+  color: #87ffff;
+}
+a:visited {
+  color: #e0abff;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: #ff5e5e;
+}
