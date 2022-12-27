@@ -9,7 +9,7 @@
 
   </head>
   <body style="background-color:#000000;">
-      <audio id="autoplay" loop="">
+      <audio id="autoplay">
         <source src="snd/404.ogg" type="audio/ogg">
       </audio>
   <style>
@@ -27,6 +27,12 @@
     transform: translate(-50%, -50%);
   }
   </style>
+
+  <script>
+      var timer = setTimeout(function() {
+          window.location='http://satyrical.net'
+      }, 3000);
+  </script>
 
   <div class="container">
     <div class="center">
