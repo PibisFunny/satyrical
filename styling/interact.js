@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		promise.then(function() {}).catch(function(error) {
 			var autoplayCover = document.createElement("div");
 			autoplayCover.id = "autoplay-cover";
-			autoplayCover.innerHTML = `<img src="img/accepterB.png">`;
+			autoplayCover.innerHTML = `<img src="img/macaroni.gif">`;
 			document.body.appendChild(autoplayCover);
 			autoplayCover.addEventListener("click", function() {
 				autoplayCover.className = "hide";
